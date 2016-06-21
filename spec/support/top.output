@@ -1,0 +1,14 @@
+top - 20:59:44 up 2 days,  7:30,  1 user,  load average: 0.38, 0.39, 0.36
+Tasks: 229 total,   1 running, 228 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 10.8 us,  2.8 sy,  0.0 ni, 86.3 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  5527336 total,   995640 free,  3208248 used,  1323448 buff/cache
+KiB Swap:  7999996 total,  7793236 free,   206760 used.  1691152 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 1800 alex      20   0 2014012 440848 106072 S  25.0  8.0 113:01.92 chromium-browse
+ 1924 alex      20   0 2137900 478176 107332 S  12.5  8.7  49:45.85 chromium-browse
+ 7068 alex      20   0 1292076 172780  70864 S  12.5  3.1   4:02.34 chromium-browse
+ 1084 root      20   0  277724  50576  40912 S   6.2  0.9  27:52.25 Xorg
+ 1372 alex       9 -11  496044   8072   6132 S   6.2  0.1   2:48.59 pulseaudio
+21223 alex      20   0  683628 168772  24480 S   6.2  3.1  18:13.25 skype
+25271 mongodb   20   0  389432  40600   6128 S   6.2  0.7   2:53.59 mongod
