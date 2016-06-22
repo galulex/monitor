@@ -36,6 +36,6 @@ class Monitor
   end
 
   def top
-    @top ||= `top -n 1 -b`.split("\n")
+    @top ||= `top -n 1 -b -i`.split("\n")
   end
 end
