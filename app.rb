@@ -17,6 +17,7 @@ class App < Sinatra::Base
   config_file 'config/app.yml'
 
   get '/' do
+    content_type 'text/event-stream'
     status(404) && return if params[:token] != settings.token
     stream do |out|
       until out.closed?
@@ -25,5 +26,10 @@ class App < Sinatra::Base
       end
       out.flush
     end
+  end
+
+  get '/verify' do
+    status(404) && return if params[:token] != settings.token
+    status(200)
   end
 end
