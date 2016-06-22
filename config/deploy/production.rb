@@ -1,4 +1,4 @@
-server 'ec2-52-90-199-20.compute-1.amazonaws.com',
+server 'ec2-54-234-248-203.compute-1.amazonaws.com',
        user: 'ubuntu',
        roles: %w(app db web)
 

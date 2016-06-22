@@ -2,7 +2,7 @@
   "environment": "production",
   "port": 9292,
   "daemonize": true,
-  "user": "ubuntu",
+  "user": "alex",
   "pid_file": "tmp/server.pid",
   "log_file": "tmp/server.log"
 }
