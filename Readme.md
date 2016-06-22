@@ -31,6 +31,8 @@ Install passenger `gem install passenger`
 Run `bundle exec cap production deploy`
 Login to instance and run passenger `passenger start`. It restarts automaticaly for next deploys
 
+Agent uses `9292` port. If you are using AWS services please make sure that add inbound rule for this port in Security Groups menu.
+
 Server: `passenger start`
 -
 
